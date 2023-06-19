@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #88b06a; 
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+  }
+
 /* Header CSS */
 #header {
     display: flex;
@@ -65,24 +92,23 @@
 #about {
     display: flex;
     justify-content: flex-start;
+    padding-right: 15px;
 }
 
 #about .about-us {
     width: 45%;
-    height: 60vh;
-    padding: 20px 15px;
-}
-
-#about .about-us h2{
-    text-align: center;
-    font-size: 20px;
-    color: #88b06a;
+    height: 40vh;
 }
 
 #about .about-us p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
+    padding-top: 15px;
+}
+#about .about-us ul {
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 #about .about-us ul li a{
@@ -98,22 +124,16 @@
 
 #about .business-hour {
     width: 45%;
-    height: 60vh;
-    padding: 20px 0px 20px 15px;
-}
-
-#about .business-hour h2{
-    text-align: center;
-    font-size: 20px;
-    color: #88b06a;
+    height: 40vh;
 }
 
 #about .business-hour ul {
+    padding-top: 15px;
+    padding-left: 15px;
     text-align: left;
     margin-left: 100px;
     list-style: none;
     font-size: 18px;
-
 }
 
 #about .business-hour ul li {
@@ -125,5 +145,86 @@
 }
 
 #about .business-hour ul li span {
+    font-weight: 500;
     padding-right: 10px;
+}
+
+#testimonial .review{
+    display: flex;
+    justify-content: space-between;
+}
+
+#testimonial .review-box {
+    margin-top: 15px;
+    width: 30%;
+    height: 40vh;
+}
+
+#testimonial .icon {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+}
+
+#testimonial .star-icon {
+    display: flex;
+}
+
+#testimonial .star-icon i {
+    color: rgb(251,188,4);
+    padding-right: 3px;
+}
+
+#testimonial .star-icon p {
+    padding-left: 5px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#testimonial .option-icon i {
+    align-items: left !important;
+    color: black;
+}
+
+#testimonial .review-box p{
+    text-align: justify;
+    padding: 0px 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#testimonial .review-box h4{
+    text-align: right;
+    font-size: 18px;
+    color: #88b06a;
+    font-weight: 500;
+}
+
+#testimonial .button-normal {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#testimonial .button-normal a{
+    text-decoration: none;
+    color: #88b06a;
+    margin-left: 20px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #88b06a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#testimonial .button-normal a:hover {
+    color: #088178;
+}
+#gallery .image{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#gallery .image img{
+    width: 33%;
+    height: 40vh;
 }
