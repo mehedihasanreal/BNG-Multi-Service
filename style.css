@@ -17,12 +17,31 @@ h2 {
     color: #88b06a; 
 }
 
+h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #088178;
+}
+
 .section-p1 {
     padding: 40px 80px;
 }
 
 .section-m1 {
     margin: 40px 0;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #88b06a;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
   }
 
 /* Header CSS */
@@ -127,26 +146,14 @@ h2 {
     height: 40vh;
 }
 
-#about .business-hour ul {
-    padding-top: 15px;
-    padding-left: 15px;
-    text-align: left;
+#about .business-hour table {
+    width: 60%;
+    margin-top: 20px;
     margin-left: 100px;
-    list-style: none;
-    font-size: 18px;
 }
 
-#about .business-hour ul li {
-    text-align: left;
-    list-style: none;
-    line-height: 24px;
-    font-size: 18px;
-    padding-bottom: 5px;
-}
-
-#about .business-hour ul li span {
-    font-weight: 500;
-    padding-right: 10px;
+#about .business-hour table td{
+    padding: 2px;
 }
 
 #testimonial .review{
@@ -227,4 +234,239 @@ h2 {
 #gallery .image img{
     width: 33%;
     height: 40vh;
+}
+
+#call-address-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+#call-address-button .call-now{
+    padding: 0 50px 0 50px;
+}
+
+#call-address-button .call-now p{
+    padding-top: 10px;
+}
+
+#call-address-button .address{
+    padding: 0 50px 0 50px;
+}
+
+#call-address-button .address p{
+    padding-top: 10px;
+}
+
+/* Accounting Page */
+
+#accounting .accounting-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#accounting .accounting-details img{
+    width: 30%;
+    height: 40vh;
+}
+
+#accounting .accounting-info h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#accounting .accounting-info ul{
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+#accounting .accounting-info ul li{
+    line-height: 25px;
+}
+
+#tax .tax-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#tax .tax-details img{
+    width: 30%;
+    height: 40vh;
+}
+
+#tax .tax-info {
+    margin-left: 75px;
+}
+
+#tax .tax-info h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#tax .tax-info ul{
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+#tax .tax-info ul li{
+    font-size: 14PX;
+    line-height: 25px;
+}
+
+/* Immigration Page */
+#immigration .immigration-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#immigration .immigration-details  img{
+    width: 30%;
+    height: 40vh;
+}
+
+#immigration .immigration-info  {
+    margin-left: 75px;
+}
+
+#immigration .immigration-info h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#immigration .immigration-info ul{
+    line-height: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+#immigration .immigration-info ul li{
+    line-height: 30px;
+}
+
+/* Notary Page */
+#notary .notary-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#notary .notary-details  img{
+    width: 30%;
+    height: 40vh;
+}
+
+#notary .notary-info  {
+    margin-left: 75px;
+}
+
+#notary .notary-info p{
+    font-size: 16px;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
+/* Translation Page */
+#translation .translation-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#translation .translation-details  img{
+    width: 30%;
+    height: 40vh;
+}
+
+#translation .translation-info {
+    margin-left: 75px;
+}
+
+#translation .translation-info h5{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+#translation .translation-info ul{
+    line-height: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+#translation .translation-info ul li{
+    line-height: 30px;
+}
+
+/* Social Service Page */
+
+#social-service .social-service-details {
+    display: flex;
+    padding-top: 20px;
+}
+
+#social-service .social-service-details img{
+    width: 30%;
+    height: 40vh;
+}
+
+#social-service .social-service-info {
+    margin-left: 75px;
+}
+
+#social-service .social-service-info p{
+    font-size: 14px;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
+/* Contact Page */
+
+#form-details form span{
+font-size: 12px;
+}
+
+#form-details form h1 {
+font-size: 26px;
+line-height: 35px;
+padding: 20px 0;
+}
+
+#form-details {
+display: flex;
+justify-content: space-between;
+margin: 15px;
+padding: 30px;
+}
+
+#form-details form {
+width: 65%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+width: 100%;
+padding: 12px 15px;
+outline: none;
+margin-bottom: 20px;
+border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+background-color: #088178;
+color: #fff;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
 }
