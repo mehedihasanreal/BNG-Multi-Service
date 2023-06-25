@@ -640,14 +640,17 @@ footer {
     }
 
     #about .business-hour {
-        margin-top: 5px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     #about .business-hour table {
         width: 100%;
         margin-top: 20px;
         margin-left: 0px;
+    }
+
+    #testimonial {
+        margin-top: 10px;
     }
 
     #testimonial .review {
@@ -670,7 +673,7 @@ footer {
     }
 
     #testimonial .option-icon i {
-        padding-left: 90px;
+        padding-left: 80px;
         color: black;
     }
 
