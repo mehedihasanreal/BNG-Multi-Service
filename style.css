@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Global Styles */
 h2 {
     text-align: center;
     font-size: 18px;
-    color: #88b06a; 
+    color: #88b06a;
 }
 
-h3{
+h3 {
     font-size: 16px;
     padding-bottom: 5px;
     color: #088178;
@@ -42,7 +43,7 @@ button.normal {
     border: none;
     outline: none;
     transition: 0.2s;
-  }
+}
 
 /* Header CSS */
 #header {
@@ -56,9 +57,9 @@ button.normal {
     position: sticky;
     top: 0;
     left: 0;
-  }
+}
 
-#header a img{
+#header a img {
     height: 50px;
     width: 100px;
 }
@@ -69,7 +70,7 @@ button.normal {
     justify-content: center;
 }
 
-#navbar li{
+#navbar li {
     list-style: None;
     padding: 0px 15px;
     position: relative;
@@ -99,7 +100,15 @@ button.normal {
     left: 20px;
 }
 
-#page-header img{
+#mobile {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+#page-header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,12 +134,13 @@ button.normal {
     line-height: 22px;
     padding-top: 15px;
 }
+
 #about .about-us ul {
     padding-top: 15px;
     padding-left: 15px;
 }
 
-#about .about-us ul li a{
+#about .about-us ul li a {
     text-decoration: none;
     color: #088178;
     font-size: 18px;
@@ -152,11 +162,11 @@ button.normal {
     margin-left: 100px;
 }
 
-#about .business-hour table td{
+#about .business-hour table td {
     padding: 2px;
 }
 
-#testimonial .review{
+#testimonial .review {
     display: flex;
     justify-content: space-between;
 }
@@ -177,7 +187,7 @@ button.normal {
 }
 
 #testimonial .star-icon i {
-    color: rgb(251,188,4);
+    color: rgb(251, 188, 4);
     padding-right: 3px;
 }
 
@@ -193,14 +203,14 @@ button.normal {
     color: black;
 }
 
-#testimonial .review-box p{
+#testimonial .review-box p {
     text-align: justify;
     padding: 0px 5px;
     font-size: 15px;
     line-height: 20px;
 }
 
-#testimonial .review-box h4{
+#testimonial .review-box h4 {
     text-align: right;
     font-size: 18px;
     color: #88b06a;
@@ -212,7 +222,7 @@ button.normal {
     text-align: center;
 }
 
-#testimonial .button-normal a{
+#testimonial .button-normal a {
     text-decoration: none;
     color: #88b06a;
     margin-left: 20px;
@@ -225,13 +235,14 @@ button.normal {
 #testimonial .button-normal a:hover {
     color: #088178;
 }
-#gallery .image{
+
+#gallery .image {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
 }
 
-#gallery .image img{
+#gallery .image img {
     width: 33%;
     height: 40vh;
 }
@@ -242,19 +253,19 @@ button.normal {
 }
 
 
-#call-address-button .call-now{
+#call-address-button .call-now {
     padding: 0 50px 0 50px;
 }
 
-#call-address-button .call-now p{
+#call-address-button .call-now p {
     padding-top: 10px;
 }
 
-#call-address-button .address{
+#call-address-button .address {
     padding: 0 50px 0 50px;
 }
 
-#call-address-button .address p{
+#call-address-button .address p {
     padding-top: 10px;
 }
 
@@ -266,23 +277,23 @@ button.normal {
     padding-top: 20px;
 }
 
-#accounting .accounting-details img{
+#accounting .accounting-details img {
     width: 30%;
     height: 40vh;
 }
 
-#accounting .accounting-info h5{
+#accounting .accounting-info h5 {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
-#accounting .accounting-info ul{
+#accounting .accounting-info ul {
     padding-left: 25px;
     padding-bottom: 5px;
 }
 
-#accounting .accounting-info ul li{
+#accounting .accounting-info ul li {
     line-height: 25px;
 }
 
@@ -292,7 +303,7 @@ button.normal {
     padding-top: 20px;
 }
 
-#tax .tax-details img{
+#tax .tax-details img {
     width: 30%;
     height: 40vh;
 }
@@ -301,18 +312,18 @@ button.normal {
     margin-left: 75px;
 }
 
-#tax .tax-info h5{
+#tax .tax-info h5 {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
-#tax .tax-info ul{
+#tax .tax-info ul {
     padding-left: 25px;
     padding-bottom: 5px;
 }
 
-#tax .tax-info ul li{
+#tax .tax-info ul li {
     font-size: 14PX;
     line-height: 25px;
 }
@@ -324,28 +335,28 @@ button.normal {
     padding-top: 20px;
 }
 
-#immigration .immigration-details  img{
+#immigration .immigration-details img {
     width: 30%;
     height: 40vh;
 }
 
-#immigration .immigration-info  {
+#immigration .immigration-info {
     margin-left: 75px;
 }
 
-#immigration .immigration-info h5{
+#immigration .immigration-info h5 {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
-#immigration .immigration-info ul{
+#immigration .immigration-info ul {
     line-height: 25px;
     padding-left: 25px;
     padding-bottom: 5px;
 }
 
-#immigration .immigration-info ul li{
+#immigration .immigration-info ul li {
     line-height: 30px;
 }
 
@@ -356,16 +367,17 @@ button.normal {
     padding-top: 20px;
 }
 
-#notary .notary-details  img{
+#notary .notary-details img {
     width: 30%;
     height: 40vh;
 }
 
-#notary .notary-info  {
+#notary .notary-info {
     margin-left: 75px;
 }
 
-#notary .notary-info p{
+#notary .notary-info p {
+    text-align: justify;
     font-size: 16px;
     padding-bottom: 5px;
     line-height: 25px;
@@ -378,7 +390,7 @@ button.normal {
     padding-top: 20px;
 }
 
-#translation .translation-details  img{
+#translation .translation-details img {
     width: 30%;
     height: 40vh;
 }
@@ -387,20 +399,20 @@ button.normal {
     margin-left: 75px;
 }
 
-#translation .translation-info h5{
+#translation .translation-info h5 {
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
     padding-bottom: 5px;
 }
 
-#translation .translation-info ul{
+#translation .translation-info ul {
     line-height: 25px;
     padding-left: 25px;
     padding-bottom: 5px;
 }
 
-#translation .translation-info ul li{
+#translation .translation-info ul li {
     line-height: 30px;
 }
 
@@ -411,7 +423,7 @@ button.normal {
     padding-top: 20px;
 }
 
-#social-service .social-service-details img{
+#social-service .social-service-details img {
     width: 30%;
     height: 40vh;
 }
@@ -420,7 +432,7 @@ button.normal {
     margin-left: 75px;
 }
 
-#social-service .social-service-info p{
+#social-service .social-service-info p {
     font-size: 14px;
     padding-bottom: 5px;
     line-height: 25px;
@@ -428,45 +440,372 @@ button.normal {
 
 /* Contact Page */
 
-#form-details form span{
-font-size: 12px;
+#form-details form span {
+    font-size: 12px;
 }
 
 #form-details form h1 {
-font-size: 26px;
-line-height: 35px;
-padding: 20px 0;
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
 }
 
 #form-details {
-display: flex;
-justify-content: space-between;
-margin: 15px;
-padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 30px;
 }
 
 #form-details form {
-width: 65%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #form-details form input,
 #form-details form textarea {
-width: 100%;
-padding: 12px 15px;
-outline: none;
-margin-bottom: 20px;
-border: 1px solid #e1e1e1;
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
 }
 
 #form-details form button {
-background-color: #088178;
-color: #fff;
+    background-color: #088178;
+    color: #fff;
 }
 
 footer {
     font-size: 12px;
     text-align: center;
+}
+
+@media (max-width:799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    /* Home Page */
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 200px;
+        right: -300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about .about-us {
+        width: 100%;
+        height: 25vh;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #about .business-hour {
+        width: 100%;
+        height: 25vh;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #testimonial .button-normal {
+        margin-top: 10px;
+    }
+
+    /* Accounting Page */
+
+    #accounting .accounting-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #tax .tax-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    /* Immigrattion Page */
+
+    #immigration .immigration-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #immigration .immigration-info h5 {
+        line-height: 20px;
+    }
+
+    #notary .notary-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #notary .notary-info {
+        margin-left: 15px;
+    }
+
+    /* Translation Page */
+
+    #translation .translation-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #translation .translation-info {
+        margin-left: 15px;
+    }
+
+    #translation .translation-info h5 {
+        text-align: justify;
+    }
+
+    /* Social Service Page */
+
+    #social-service .social-service-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #social-service .social-service-info {
+        margin-left: 15px;
+    }
+}
+
+/* Small Phone */
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    /* Home Page */
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about .about-us {
+        margin-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    #about .business-hour {
+        margin-top: 5px;
+        margin-top: 50px;
+    }
+
+    #about .business-hour table {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #testimonial .review {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #testimonial .review-box {
+        height: auto;
+        width: 100%;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #testimonial .icon {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    #testimonial .option-icon i {
+        padding-left: 90px;
+        color: black;
+    }
+
+    #gallery .image {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    #gallery .image img {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    #call-address-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #call-address-button .call-now {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Accounting Page */
+
+    #accounting .accounting-details {
+        flex-direction: column;
+    }
+
+    #accounting .accounting-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #tax .tax-details {
+        flex-direction: column;
+    }
+
+    #tax .tax-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #tax .tax-info {
+        width: 100%;
+        padding-top: 15px;
+        margin-left: 0px;
+    }
+
+    /* Immigration Page */
+
+    #immigration .immigration-details {
+        flex-direction: column;
+    }
+
+    #immigration .immigration-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #immigration .immigration-info {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+
+    /* Notary Public */
+
+    #notary .notary-details {
+        flex-direction: column;
+    }
+
+    #notary .notary-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #notary .notary-info {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+
+    /* Translation Page */
+
+    #translation .translation-details {
+        flex-direction: column;
+    }
+
+    #translation .translation-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #translation .translation-info {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+
+    /* Social Service Page */
+
+    #social-service .social-service-details {
+        flex-direction: column;
+    }
+
+    #social-service .social-service-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #social-service .social-service-info {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+
+    /* Contact Form Page */
+
+    #form-details {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #form-details form {
+        width: 100%;
+    }
+
+    #form-details form h1 {
+        font-size: 24px;
+    }
+
+
 }
