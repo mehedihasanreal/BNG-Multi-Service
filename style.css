@@ -440,11 +440,11 @@ button.normal {
 
 /* Contact Page */
 
-#form-details form span {
+#form-details .form span {
     font-size: 12px;
 }
 
-#form-details form h1 {
+#form-details .form h1 {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
@@ -457,15 +457,15 @@ button.normal {
     padding: 30px;
 }
 
-#form-details form {
+#form-details .form {
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#form-details form input,
-#form-details form textarea {
+#form-details .form input,
+#form-details .form textarea {
     width: 100%;
     padding: 12px 15px;
     outline: none;
@@ -473,7 +473,7 @@ button.normal {
     border: 1px solid #e1e1e1;
 }
 
-#form-details form button {
+#form-details .form button {
     background-color: #088178;
     color: #fff;
 }
@@ -802,11 +802,11 @@ footer {
         padding-left: 0px;
     }
 
-    #form-details form {
+    #form-details .form {
         width: 100%;
     }
 
-    #form-details form h1 {
+    #form-details .form h1 {
         font-size: 24px;
     }
 
