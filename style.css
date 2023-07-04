@@ -117,7 +117,9 @@ button.normal {
     height: 40vh;
 }
 
-#eid-banner {
+/* Eid Banner */
+
+/* #eid-banner {
     background-color: #3399ff;
     width: 100%;
     height: 20vh;
@@ -153,7 +155,9 @@ button.normal {
 #eid-banner p span {
     color: red;
     font-weight: 600;
-}
+} */
+
+/* Eid Banner End */
 
 #about {
     display: flex;
@@ -584,7 +588,9 @@ footer {
         font-size: 24px;
     }
 
-    #eid-banner .eid i {
+    /* Eid Banner */
+
+    /* #eid-banner .eid i {
         margin-right: 15px;
         font-size: 30px;
     }
@@ -596,7 +602,9 @@ footer {
 
     #eid-banner p {
         font-size: 25px;
-    }
+    } */
+
+    /* Eid Banner End */
 
     #about {
         display: flex;
@@ -693,7 +701,9 @@ footer {
         padding: 10px 30px;
     }
 
-    #eid-banner {
+    /* Eid Banner */
+
+    /* #eid-banner {
         height: 30vh;
     }
 
@@ -712,7 +722,9 @@ footer {
     #eid-banner p {
         font-size: 20px;
         text-align: center;
-    }
+    } */
+
+    /* Eid Banner End */
 
     #about {
         display: flex;
