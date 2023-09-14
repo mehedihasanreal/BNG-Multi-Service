@@ -490,6 +490,28 @@ button.normal {
     line-height: 25px;
 }
 
+/* Insurance Page */
+
+#insurance .insurance-details {
+    display: flex;
+    padding-top: 20px;
+}
+
+#insurance .insurance-details img {
+    width: 30%;
+    height: 40vh;
+}
+
+#insurance .insurance-info {
+    margin-left: 75px;
+}
+
+#insurance .insurance-info p {
+    font-size: 14px;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
 /* Contact Page */
 
 #form-details .form span {
@@ -684,6 +706,17 @@ footer {
     }
 
     #social-service .social-service-info {
+        margin-left: 15px;
+    }
+
+    /* Insurance Page */
+
+    #insurance .insurance-details img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    #insurance .insurance-info {
         margin-left: 15px;
     }
 }
@@ -904,6 +937,23 @@ footer {
     }
 
     #social-service .social-service-info {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+
+    /* Social Service Page */
+
+    #insurance .insurance-details {
+        flex-direction: column;
+    }
+
+    #insurance .insurance-details img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #insurance .insurance-info {
         width: 100%;
         margin-left: 0px;
         padding-top: 15px;
